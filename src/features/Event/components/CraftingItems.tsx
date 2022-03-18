@@ -111,7 +111,7 @@ export const CraftingItems: React.FC<Props> = ({
   return ( 
     <div className="flex">
       <div className="w-3/5 flex flex-wrap h-fit">
-        <div className="flex flex-wrap bg-red-400 justify-center align-center">
+        <div className="flex flex-wrap">
         {Object.values(items).map((item) => (
           <Box
             isSelected={selected.name === item.name}
